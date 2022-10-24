@@ -1,10 +1,19 @@
-import Hero from "./Hero"
+import Hero from "./Hero";
+import Rockets from "./Rockets";
+import Testimonials from "./Testimonials";
+import Contact from "./Contact";
+import Line from "./Line";
 
 const Main = () => {
   return (
     <main className="max-w-4xl mx-auto">
       <Hero />
-      <hr className="mx-auto bg-black dark:bg-white w-1/2" />
+      <Line />
+      <Rockets />
+      <Line />
+      <Testimonials />
+      <Line />
+      <Contact />
     </main>
   )
 }
