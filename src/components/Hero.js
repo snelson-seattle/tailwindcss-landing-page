@@ -4,7 +4,7 @@ const Hero = () => {
   return (
     <section
       id="hero"
-      className="mb-12 flex flex-col-reverse items-center justify-center gap-8 p-6 sm:flex-row scroll-mt-40"
+      className="mb-12 flex flex-col-reverse items-center justify-center gap-8 p-6 sm:flex-row scroll-mt-40 widescreen:section-min-height tallscreen:section-min-height"
     >
       <article className="sm:w-1/2">
         <h2 className="max-w-md text-4xl font-bold text-center sm:text-5xl sm:text-left text-slate-900 dark:text-white capitalize">

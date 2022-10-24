@@ -3,7 +3,13 @@
 @tailwind utilities;
 
 @layer base {
-    html {
-        @apply sm:scroll-smooth;
-    }
+  html {
+    @apply sm:scroll-smooth;
+  }
+}
+
+@layer utilities {
+  .section-min-height {
+    min-height: calc(100vh - 68px);
+  }
 }

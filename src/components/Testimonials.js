@@ -2,7 +2,7 @@ import TestimonialCard from "./TestimonialCard";
 
 const Testimonials = () => {
   return (
-    <section id="testimonials" className="my-12 p-6 scroll-mt-20">
+    <section id="testimonials" className="my-12 p-6 scroll-mt-20 widescreen:section-min-height tallscreen:section-min-height">
       <h2 className="mb-6 text-center text-4xl font-bold text-slate-900 dark:text-white sm:text-5xl">
         Testimonials
       </h2>
