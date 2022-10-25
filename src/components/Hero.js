@@ -14,6 +14,9 @@ const Hero = () => {
             We're building rockets for the next century today. From the moon to Mars, Jupiter and beyond...
         </p>
         <p className="max-w-md text-2xl mt-4 text-center sm:text-left text-slate-700 dark:text-slate-400">
+          Need to go to space?
+        </p>
+        <p className="max-w-md text-2xl mt-4 text-center sm:text-left text-slate-700 dark:text-slate-400">
             Think Acme Rockets.
         </p>
       </article>
