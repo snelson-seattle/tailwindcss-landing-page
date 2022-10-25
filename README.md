@@ -72,7 +72,3 @@ Right now the is just a landing page. In the future it would be nice to add a ba
 Scott E. Nelson
 - Website - [www.scottenelson.dev](https://scottenelson.dev)
 - GitHub - [snelson-seattle](https://github.com/snelson-seattle)
-
-## Acknowledgments
-
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
