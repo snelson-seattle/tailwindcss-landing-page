@@ -1,4 +1,4 @@
-import {useRef} from "react";
+import { useRef } from "react";
 
 const Header = () => {
   const menuRef = useRef();
@@ -6,7 +6,7 @@ const Header = () => {
   const toggleMenu = () => {
     menuRef.current.classList.toggle("hidden");
     menuRef.current.classList.toggle("flex");
-  }
+  };
 
   return (
     <header className="sticky top-0 z-10 bg-teal-700 text-white">
@@ -15,7 +15,12 @@ const Header = () => {
           <a href="#hero">🚀Acme Rockets</a>
         </h1>
         <div>
-          <button className="cursor-pointer text-3xl md:hidden" onClick={toggleMenu}>&#9776;</button>
+          <button
+            className="cursor-pointer text-3xl md:hidden"
+            onClick={toggleMenu}
+          >
+            &#9776;
+          </button>
           <nav className="hidden space-x-8 text-xl md:block" aria-label="main">
             <a href="#rockets" className="hover:opacity-90">
               Our Rockets
@@ -29,9 +34,15 @@ const Header = () => {
           </nav>
         </div>
       </section>
-      <section ref={menuRef} className="absolute top-0 w-full flex-col justify-center origin-top animate-open-menu bg-black text-5xl hidden" onClick={toggleMenu}>
+      <section
+        ref={menuRef}
+        className="absolute top-0 hidden w-full origin-top animate-open-menu flex-col justify-center bg-black text-5xl"
+        onClick={toggleMenu}
+      >
         <div className="flex w-full justify-end px-8">
-          <button className="flex items-center justify-center text-8xl" onClick={toggleMenu}>
+          <button
+            className="flex items-center justify-center text-8xl"
+          >
             &times;
           </button>
         </div>
@@ -42,16 +53,28 @@ const Header = () => {
           <a href="#hero" className="w-full py-6 text-center hover:opacity-70">
             Home
           </a>
-          <a href="#rockets" className="w-full py-6 text-center hover:opacity-70">
+          <a
+            href="#rockets"
+            className="w-full py-6 text-center hover:opacity-70"
+          >
             Our Rockets
           </a>
-          <a href="#testimonials" className="w-full py-6 text-center hover:opacity-70">
+          <a
+            href="#testimonials"
+            className="w-full py-6 text-center hover:opacity-70"
+          >
             Testimonials
           </a>
-          <a href="#contact" className="w-full py-6 text-center hover:opacity-70">
+          <a
+            href="#contact"
+            className="w-full py-6 text-center hover:opacity-70"
+          >
             Contact Us
           </a>
-          <a href="#footer" className="w-full py-6 text-center hover:opacity-70">
+          <a
+            href="#footer"
+            className="w-full py-6 text-center hover:opacity-70"
+          >
             Legal
           </a>
         </nav>
